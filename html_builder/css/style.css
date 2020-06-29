@@ -1,0 +1,107 @@
+*{
+    
+    font-family: sans-serif;
+}
+
+
+.menu{
+    
+    display: inline-block;
+    
+    
+    color: #3d6bb5;
+    
+    font-weight: bold;
+    
+    font-family: sans-serif;
+    
+    margin-left: 40px;
+
+}
+
+
+a, a:hover, a:visited{
+    text-decoration: none;
+    color: #3d6bb5;
+}
+
+h5, h6{
+    margin:5px;
+}
+
+
+.editor{
+
+    float:left;
+    width: 50%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.view {
+
+    
+    padding: 20px;
+
+}
+
+
+
+.window {
+    
+    background-color: aliceblue;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    width: 49%;
+    height: 50%;
+    
+    float:right;
+    
+}
+
+
+
+.smoothie{
+    
+    transition: all 0.2s;
+}
+
+
+.field{
+    
+    border-color: #3d6bb5;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 5px; 
+    border-width: 1px;
+
+}
+
+.field:focus{
+    border-color: #3d6bb5;
+
+    height: 30px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 5px; 
+    background-color: aliceblue;
+    
+}
+
+.fieldText{
+    width: 120px;
+}
+
+.option{
+    border-color: #3d6bb5;
+    width: 130px;
+    height: 40px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 5px; 
+    border-width: 1px;
+ 
+}

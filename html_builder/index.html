@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML ELement Builder</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+   
+   <div id = "header" class = "header">
+       
+       <ul>
+           <li class = "menu"><h1>HTML Builder</h1></li>
+           <li class = "menu"><h3><a href = "index.html">Editor</a></h3></li>
+           <li class = "menu"><h3><a href = "about.html">About</a></h3></li>
+       </ul>
+       
+   </div>
+   
+   
+   
+   
+   <div class="editor"> 
+      <form action="" id = "editor_form" class="editor_form" >
+       <h5>General</h5>
+       <input type="text" placeholder="class name" id = "className" class = "field">
+    
+  
+       <input type="text" placeholder = "id" id = "ID" class = "field">
+     
+       <select value="" class="option" id = "elemSelect" onchange = "createElem()"> 
+          <option name="button" id="button" class="select" disabled selected="selected">Select element</option>
+           <option name="button" id="button" class="select">Button</option>
+           <option name="2" id="2" class="select">2</option>
+           <option name="3" id="3" class="select">3</option>
+       </select>
+       
+       <hr>
+       <h5>Text</h5>
+       <input type="text" placeholder="inner text" onkeyup = "changeText(this.value)" class = "field fieldText">
+        <input type="text" placeholder="font size" onkeyup = "changeFontSize(this.value)" class = "field fieldText">
+   
+       
+       <hr>
+       <h5>Sizes</h5>
+       <input type="text" placeholder="width" onkeyup = "changeWidth(this.value)" class = "field">
+       <input type="text" placeholder="height" onkeyup = "changeHeight(this.value)" class = "field">
+       <input type="text" placeholder="margin (all)" onkeyup = "changeMargin(this.value)" class = "field fieldText">
+       <input type="text" placeholder="padding (all)" onkeyup = "changePadding(this.value)" class = "field fieldText">
+    
+        <div class="sizesAdv" id = "sizesAdv">
+        <h6>Advanced</h6>
+         <input type="text" placeholder="margin left" onkeyup = "changeMargin(this.value, 'l')" class = "field">
+       <input type="text" placeholder="margin right" onkeyup = "changeMargin(this.value, 'r')" class = "field">
+       <input type="text" placeholder="margin top" onkeyup = "changeMargin(this.value, 't')" class = "field fieldText">
+       <input type="text" placeholder="margin bottom" onkeyup = "changeMargin(this.value, 'b')"  class = "field fieldText">  
+       <br>
+          <input type="text" placeholder="padding left" onchange = "changePadding(this.value, 'l')" class = "field">
+       <input type="text" placeholder="padding right" onchange = "changePadding(this.value, 'r')" class = "field">
+       <input type="text" placeholder="padding top" onkeyup = "changePadding(this.value, 't')" class = "field fieldText">
+       <input type="text" placeholder="padding bottom" onkeyup = "changePadding(this.value, 'p')" class = "field fieldText">  
+        
+        </div>
+       <hr>
+       <h5>Borders</h5>
+       
+        <select value="" class="option" id = "elemSelect" onchange = "changeBorderStyle(this.value)"> 
+          <option name="button" id="button" class="select" disabled selected="selected">Select style</option>
+           <option name="dotted" >dotted</option>
+           <option name="dashed" >dashed</option>
+            <option name="solid" >solid</option>
+            <option name="solid" >double</option>
+            <option name="solid" >groove</option>
+            <option name="solid" >ridge</option>
+            <option name="solid" >inset</option>
+             <option name="solid" >outset</option>
+       </select>
+       
+       <input type="text" placeholder="border width" onkeyup = "changeBrdrWidth(this.value)" class = "field">
+       
+       <input type="text" placeholder="border radius (all)" onkeyup = "changeBrdrRad(this.value)" class = "field">
+       
+       
+   </form>
+   </div>
+   
+   
+   <div class="view">
+       
+       <div class="window" id = "window">
+           
+           &nbsp;
+       </div>
+       
+       
+   </div>
+   
+   
+
+   
+   <script src = "js/main_func.js"></script>
+    
+</body>
+</html>
