@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Steam Games</title>
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.39/css/uikit.min.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.39/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.39/js/uikit-icons.min.js"></script>
+    <script src="js/Vibrant.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/interface.css">
+
+
+    <script>
+        if (typeof module === 'object') {
+            window.module = module;
+            module = undefined;
+        }
+    </script>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <meta charset="UTF-8">
+
+</head>
+
+<!-- BODY -->
+
+<body class="" id="body">
+
+    <!-- grid container -->
+    <div class="uk-grid">
+        <div class="uk-width-1-12" id="div_spin">
+
+            <!-- navbar -->
+            <nav class="uk-navbar uk-animation-slide-top navigation">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="">All Games</a></li>
+                    <li><a href="#modal-example">My Profile</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <!-- content -->
+        <div class="content uk-grid uk-animation-slide-bottom">
+
+
+            <div>
+
+
+
+
+                <!-- All games list table -->
+                <table class="uk-table uk-width-1-12" border="0" id="games_table">
+
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+
+
+                <!-- ТУТ СКРИПТЫ -->
+
+
+                <script src="js/pages/all_games.js">
+                    
+                </script>
+
+
+            </div>
+        </div>
+
+
+
+        <div id="modal-container" class="uk-modal-container" uk-modal>
+            <div class="uk-modal-dialog uk-modal-body" id="modal_body">
+                <button class="uk-modal-close-default" type="button" uk-close onmouseup="clearModal()"></button>
+                <div id="divForGameTitle"></div>
+                <div id="preUl" class="uk-position-relative uk-visible-toggle uk-light" uk-slider="clsActivated: uk-transition-active; center: true">
+
+                    <ul class="uk-slider-items uk-grid" uk-lightbox="animation: slide" id="screenSlider">
+
+                    </ul>
+                </div>
+
+
+                <table class="uk-width-1-1 uk-text-center" id="info_table">
+                    <thead>
+                        <tr>
+                            <th>Developer</th>
+                            <th>Publisher</th>
+                            <th>Platforms</th>
+                            <th>Release date</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td id="game_dev" class="uk-animation-fade"></td>
+                            <td id="game_pub" class="uk-animation-fade"></td>
+                            <td id="platforms"></td>
+                            <td id="release_date"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <div id="divForDesc">
+
+
+                </div>
+
+
+                <div id="divForTags"></div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
