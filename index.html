@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Field Game</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+
+    </style>
+</head>
+
+<body oncontextmenu="return false">
+
+
+    <form id="optionsForm" class="optionsForm">
+        <h2>Настройки</h2>
+        <h6>ширина и высота</h6>
+        <p><input placeholder="Ширина поля" value='41' id="optionsWidth" class="optionsFormInput"> <input placeholder="Высота поля" value='31' id="optionsHeight" class="optionsFormInput"></p>
+        <h6>имена игроков</h6>
+        <p><input placeholder="Имя Игрока 1" value='Player 1' id="optionsP1Name" class="optionsFormInput">
+            <input placeholder="Имя Игрока 2" value='Player 2' id="optionsP2Name" class="optionsFormInput"></p>
+        <p></p>
+        <p><input type="button" value="ОК" class="okButton" id="okButton" onClick="drawField();"></p>
+
+    </form>
+
+    <div class="game">
+
+
+        <table id="gameTable" class="gameTable"></table>
+
+        <table class="scoreTable" id="scoreTable">
+            <tr>
+                <td id="player1Field" style="text-align: left;"></td>
+                <td class="playButton"><input type="button" value="Бросить кости" class="playButton" id="playButton" onClick="throwDice()"></td>
+                <td id="player2Field" style="text-align: right;"></td>
+            </tr>
+
+            <tr>
+                <td id="player1Score" style="text-align: left;">0</td>
+                <td id="infoField" class="infoField"></td>
+                <td id="player2Score" style="text-align: right;">0</td>
+            </tr>
+        </table>
+
+
+        <div id="firstDiceP1" class="firstDiceP1">
+            <img src="src/6.png" width="200px" alt="">
+        </div>
+
+        <div id="firstDiceP2" class="firstDiceP2">
+            <img src="src/2.png" width="200px" alt="">
+        </div>
+
+
+        <div id="secondDiceP1" class="secondDiceP1">
+            <img src="src/6.png" width="200px" alt="">
+        </div>
+
+        <div id="secondDiceP2" class="secondDiceP2">
+            <img src="src/2.png" width="200px" alt="">
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="game.js"></script>
+
+</body>
+
+</html>
