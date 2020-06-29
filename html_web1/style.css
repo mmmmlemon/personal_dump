@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes apple {
+    0% {transform: translateY(-5px)}
+   20%  {transform: translateX(5px)}
+    40%  {transform: translate(-2px)}
+    60%  {transform: translateX(2px)}
+    80%  {transform: translate(-1px)}
+    100% {transform: translate(0px)}
+}
+
+@font-face {
+ font-family: my_font;
+ src: url("src/10916.otf");
+}
+
+.texty {
+    
+    color: dodgerblue;
+    z-index: 1;
+    font-family: my_font;
+    font-size: 15px;
+    margin-left: 0px;
+ 
+}
+
+}
+body {
+    
+    background-color: #FFFFFF;
+    height: auto;
+    position:absolute;
+    width: 100%;
+}
+
+.logo {
+    
+    width: 40px;
+    padding: 8px;
+     transition: all 0.2s ease;
+    
+}
+
+.logo:hover {
+    
+    width: 40px;
+    padding: 8px;
+    /*transform: scale(1.2);*/
+    /*transition: all 0.2s ease;*/
+    cursor: pointer;
+    animation-name: apple;
+    animation-duration: 0.4s;
+    
+}
+
+nav {
+    
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.nav_logo {
+    
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+    font-family: my_font;
+    font-size: 25px;
+}
+
+
+
+.nav_menu {
+    
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 16%;
+    font-family: my_font;
+    font-size: 25px;
+     text-decoration: none;
+    color: black;
+     transition: all 0.3s ease;
+    
+    
+}
+
+.nav_menu:hover {
+    transition: all 0.3s ease;
+    color: dodgerblue;
+    transform: translateY(-2px);
+     
+}
+
+
+.aside_menu {
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin-top: 5px;
+    background-color: #FFFFFF;
+    top: 0px;
+    bottom: 0px;
+    
+}
+
+.aside_menu>ul {
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.article {
+    width: 80%;
+    height: 100%;
+    margin-top: 5px;
+    float: right;
+    margin-bottom: 20px;
+
+
+    
+    
+}
+
+.aside_li {
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-family: my_font;
+    border-bottom: 2px solid #DDF2FF;
+    width: 50%;
+    margin: auto;
+    
+    
+}
+
+.lils {
+    
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.lils:hover {
+    
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: dodgerblue;
+}
+
+
+
+.news {
+    
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 20px;
+
+
+}
+
+.news_head {
+    font-family: my_font;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    
+}
+
+.news_img {
+    width: 40%;
+    float:left;
+     margin-left: 2px;
+    margin-right: 10px;
+    margin-top: 13px;
+    transition: all 0.3s ease;
+    
+}
+
+.news_img:hover {
+   
+    transition: all 0.1s ease;
+    /*border-bottom: 3px solid dodgerblue;*/
+    cursor: pointer;
+    box-shadow: 0px 5px 0px 0px rgba(30,144,255,1);
+}
+
+
+
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+footer {
+    width: 100%;
+    float: right;
+    background-color: #FFFFFF;
+    border-top: 1px solid #B5E2FF;
+   
+}
+
+.company {
+    
+    font-family: my_font;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    margin-left: 75px;
+    float: left;
+}
+
+.buratina {
+    
+    font-family: my_font;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    margin-right: 15px;
+    float: right;
+    transition: all 1s ease;
+}
+
+.buratina:hover {
+    transition: all 5s ease;
+    transform: scale(0);
+    color: white;
+}
+
+
+
+.container {
+    
+    position: relative;
+}
