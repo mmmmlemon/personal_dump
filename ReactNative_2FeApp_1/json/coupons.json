@@ -1,0 +1,209 @@
+[
+    {
+        "id": 0,
+        "name": "Еда",
+        "coupons":[
+            {
+                "id": 0,
+                "title": "Скидка 50% на Big Mac в McDonalds",
+                "price": 50,
+                "endDate": "12.12.2019",
+                "endsIn": "11 дн 8 ч 5 мин",
+                "purchases": 1337,
+                "image": "https://i.avoz.es/sc/4dF6nocQ9BkiukfYKK3mfoTZRkM=/x/2018/08/01/00121533116762638415300/Foto/1111.jpg"
+            },
+    
+            {
+                "id": 2,
+                "title": "Скидка 90% на любую пиццу в Додо Пицца",
+                "price": 90,
+                "endDate": "10.01.2019",
+                "endsIn": "9 дн 2 ч 8 мин",
+                "purchases": 193,
+                "image": "https://cdn.steemitimages.com/DQmTY7DF7sc8Da6ZgjmpdMi8TyWcmUa9Bj7Mcu6ayWaTAh8/award-winning-pizza-catering-no-video.jpg"
+            },
+    
+            {
+                "id": 3,
+                "title": "Скидка 66% на картошку фри в McDonalds",
+                "price": 66,
+                "endDate": "11.07.2019",
+                "endsIn": "13 дн 1 ч 2 мин",
+                "purchases": 666,
+                "image": "https://localtvwhotv.files.wordpress.com/2016/04/fries3.jpg?quality=85&amp;strip=all"
+            }
+    
+        ]
+    },
+
+    {
+        "id": 1,
+        "name": "Красота",
+        "coupons":[
+            {
+                "id": 5,
+                "title": "Огуреченые процедуры, скидка 42%",
+                "price": 42,
+                "endDate": "11.11.2019",
+                "endsIn": "6 дн 6 ч 6 мин",
+                "purchases": 106,
+                "image": "https://pp.userapi.com/c848732/v848732486/fb915/f6mNwAq-wp0.jpg"
+            },
+
+            {
+                "id": 6,
+                "title": "Скидка 70% на наращивание ресниц",
+                "price": 70,
+                "endDate": "03.14.2019",
+                "endsIn": "11 дн 7 ч 9 мин",
+                "purchases": 99,
+                "image": "https://wallbox.ru/wallpapers/main/201624/eda54d793d3cbb0.jpg"
+            }
+        ]
+    },
+
+    {
+        "id": 2,
+        "name": "Здоровье",
+        "coupons":[
+            {
+                "id": 7,
+                "category": "Здоровье",
+                "title": "Скидка 99% на удаление всех зубов",
+                "price": 99,
+                "endDate": "09.09.2019",
+                "endsIn": "10 дн 11 ч 11 мин",
+                "purchases": 1,
+                "image": "https://www.tstdentistry.com/wp-content/uploads/2014/08/patient-1140x758.jpg"
+            },
+            {
+                "id": 8,
+                "category": "Здоровье",
+                "title": "Скидка 80% на посещение терапевта",
+                "price": 80,
+                "endDate": "12.09.2019",
+                "endsIn": "7 дн 23 ч 12 мин",
+                "purchases": 457,
+                "image": "http://knowledge.wharton.upenn.edu/wp-content/uploads/2016/05/The-Promise-of-Big-Data-1.jpg"
+            }
+        ]
+    },
+
+    {
+        "id": 3,
+        "name": "Отдых",
+        "coupons":[
+            {
+                "id": 9,
+                "title": "Скидка 10% для полета на Марс",
+                "price": 10,
+                "endDate": "02.09.2019",
+                "endsIn": "3 дн 2 ч 2 мин",
+                "purchases": 709,
+                "image": "https://porting-team.ru/wp-content/uploads/2017/09/1506363121_132925.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Тур в Северную Корею, экономия 50%",
+            "price": 50,
+            "endDate": "11.09.2019",
+            "endsIn": "67 дн 12 ч 27 мин",
+            "purchases": 1488,
+            "image": "https://www.nknews.org/wp-content/uploads/2017/07/6822805138_1d26aaa3b3_b_Pyongyang.jpg"
+    }
+        ]
+    },
+
+    {
+        "id": 4,
+        "name": "Спорт",
+        "coupons":[
+            {
+                "id": 11,
+                "title": "Б\\у сноуборд со скидкой",
+                "price": 80,
+                "endDate": "05.13.2019",
+                "endsIn": "13 дн 22 ч 25 мин",
+                "purchases": 89,
+                "image": "https://s1.1zoom.ru/b5050/464/288708-alexfas01_2048x1152.jpg"
+        },
+        {
+            "id": 12,
+            "title": "Абонемент в тренажерный зал на день",
+            "price": 20,
+            "endDate": "10.04.2019",
+            "endsIn": "56 дн 23 ч 89 мин",
+            "purchases": 228,
+            "image": "https://healthreviews.net/wp-content/uploads/2017/09/gym-fitness-center.jpg"
+    }
+        ]
+    },
+
+    {
+        "id": 5,
+        "name": "Обучение",
+        "coupons":[
+            {
+                "id": 13,
+                "title": "Онлайн-курс программирование в 1С",
+                "price": 100,
+                "endDate": "15.13.2019",
+                "endsIn": "12 дн 7 ч 59 мин",
+                "purchases": 256,
+                "image": "https://novorosinform.org/wp-content/uploads/2018/10/pitk.png"
+        },
+        {
+            "id": 14,
+            "title": "Курсы по рисованию, скидка 50%",
+            "price": 50,
+            "endDate": "06.02.2019",
+            "endsIn": "78 дн 22 ч 11 мин",
+            "purchases": 2563,
+            "image": "https://images.theweek.com/sites/default/files/styles/tw_image_6_4/public/266764.jpg?itok=cA2laHZw"
+    }
+        ]
+    },
+
+    {
+        "id": 6,
+        "name": "Детям",
+        "coupons":[
+            {
+                "id": 15,
+                "title": "Скидка на GTA 5 в Steam",
+                "price": 98,
+                "endDate": "09.03.2019",
+                "endsIn": "11 дн 17 ч 16 мин",
+                "purchases": 5,
+                "image": "https://im0-tub-ru.yandex.net/i?id=b4c3a8a3ee365bbc6d5fe171d488da39&n=13&exp=1"
+        },
+        {
+            "id": 16,
+            "title": "Конструктор LEGO со скидкой 30%",
+            "price": 30,
+            "endDate": "08.12.2019",
+            "endsIn": "56 дн 23 ч 23 мин",
+            "purchases": 8701,
+            "image": "https://retoys.ru/image/catalog/Lego/MINECRAFT/21127/211271.jpg"
+    }
+        ]
+    },
+
+    {
+        "id": 7,
+        "name": "Другое",
+        "coupons":[
+            {
+                "id": 17,
+                "title": "Слон",
+                "price": 15,
+                "endDate": "10.12.2019",
+                "endsIn": "90 дн 12 ч 45 мин",
+                "purchases": 10,
+                "image": "http://lookw.ru/1/695/1402267028-0155256-www.nevseoboi.com.ua.jpg"
+        }
+        ]
+    }
+
+  
+]
