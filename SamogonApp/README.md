@@ -3,4 +3,4 @@ ReactNative SamogonApp
 A ReactNative based calculator for moonshine delution.
 
 <hr>
-<img src="screenshot.jpg">
+<img src="screenshot.jpg" width="35%">
