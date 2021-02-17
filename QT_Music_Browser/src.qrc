@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>debug/icons/genmuslib_icon.png</file>
+        <file>debug/icons/show_genmuslib_icon.png</file>
+    </qresource>
+</RCC>
